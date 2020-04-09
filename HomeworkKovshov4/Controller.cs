@@ -25,7 +25,7 @@ namespace HomeworkKovshov4
         /// Метод, возвращающий объект-реализацию конкретной субд для данного приложения
         /// </summary>
         /// <returns>Конкретная субд</returns>
-        public IDataBase getDataBase()
+        public IDataBase GetDataBase()
         {
             return _db;
         }
