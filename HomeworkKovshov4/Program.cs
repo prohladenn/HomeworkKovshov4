@@ -43,34 +43,34 @@ namespace HomeworkKovshov4
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        controller.getDataBase().createTable();
+                        controller.getDataBase().CreateTable();
                         break;
                     case "2":
-                        controller.getDataBase().dropTable();
+                        controller.getDataBase().DropTable();
                         break;
                     case "3":
-                        controller.getDataBase().alterTable();
+                        controller.getDataBase().AlterTable();
                         break;
                     case "4":
-                        controller.getDataBase().insert();
+                        controller.getDataBase().Insert();
                         break;
                     case "5":
-                        controller.getDataBase().update();
+                        controller.getDataBase().Update();
                         break;
                     case "6":
-                        controller.getDataBase().selectUsers();
+                        controller.getDataBase().SelectUsers();
                         break;
                     case "7":
-                        controller.getDataBase().selectUserSubscribes();
+                        controller.getDataBase().SelectUserSubscribes();
                         break;
                     case "8":
-                        controller.getDataBase().selectUserFriends();
+                        controller.getDataBase().SelectUserFriends();
                         break;
                     case "9":
-                        controller.getDataBase().selectGroups();
+                        controller.getDataBase().SelectGroups();
                         break;
                     case "10":
-                        controller.getDataBase().selectGroupsSubscribers();
+                        controller.getDataBase().SelectGroupsSubscribers();
                         break;
                     default:
                         return;
